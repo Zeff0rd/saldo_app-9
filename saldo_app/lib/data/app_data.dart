@@ -13,9 +13,9 @@ class AppData extends ChangeNotifier {
   int paydayDayOfMonth = 5; // день зарплаты — для расчёта "До зарплаты N дней"
 
   final List<Account> accounts = [
-    const Account(id: 'card', name: 'Основная карта', balance: 184_320),
-    const Account(id: 'cash', name: 'Наличные', balance: 6_400),
-    const Account(id: 'save', name: 'Накопительный счёт', balance: 152_000),
+    const Account(id: 'card', name: 'Основная карта', balance: 184320),
+    const Account(id: 'cash', name: 'Наличные', balance: 6400),
+    const Account(id: 'save', name: 'Накопительный счёт', balance: 152000),
   ];
 
   final List<AppTransaction> transactions = [];
